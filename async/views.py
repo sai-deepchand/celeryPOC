@@ -1,3 +1,9 @@
 from django.shortcuts import render
+from django.http import HttpResponse
+from .tasks import sleepy
 
-# Create your views here.
+def home(request):
+       sleepy.delay(15)
+       return HttpResponse('<h1> welcome home !!!!!!! </h1> ')
+
+       
