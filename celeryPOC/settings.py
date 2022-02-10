@@ -135,5 +135,5 @@ EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'deepchandkunisetty.9@gmail.com'
-EMAIL_HOST_PASSWORD = 'uwebqnkwhetdogmp'
+EMAIL_HOST_PASSWORD = 'qgfoeftjgiipflkj   '
 DEFAULT_FROM_EMAIL ='CELERY <deepchandkunisetty.9@gmail.com>'

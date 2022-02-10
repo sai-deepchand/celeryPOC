@@ -5,6 +5,6 @@ from .tasks import sleepy, send_mail_func
 def home(request):
        # sleepy.delay(10)    
        send_mail_func.delay()   
-       return HttpResponse('<h1> welcome back deepchand!!!!!! </h1> ')
+       return HttpResponse('<h1> welcome   deepchand!!!!!! </h1> ')
 
                   
