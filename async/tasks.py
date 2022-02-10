@@ -13,7 +13,7 @@ def sleepy(x):
 def send_mail_func():
        mail_subject = "testing celery"
        message = "sending mail using celery one more time "
-       to_email = '2018129@iiitdmj.ac.in'
+       to_email = settings.EMAIL_TO_USER
        send_mail(
               subject = mail_subject,
               message=message,
